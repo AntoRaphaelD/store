@@ -12,7 +12,7 @@ const App = () => {
   const storeData = {
     name: "Annai Stores",
     phone: "+919360312145",
-    address: "Thonugal Vilakku, laipathur, NH7 Salaipudur, Tirunelveli, Tamil Nadu 628503",
+    address: "Thonugal Vilakku, salaipudhur, NH7 Salaipudur, Tirunelveli, Tamil Nadu 628503",
     hours: "6:00 AM - 11:00 PM",
     categories: [
       { title: "Rice & Grains", desc: "Premium Ponni & Basmati rice.", icon: <ShoppingBasket />, color: "bg-blue-500" },
@@ -88,7 +88,7 @@ const App = () => {
               QUALITY <br/> <span className="text-orange-500">YOU CAN</span> <br/> TASTE.
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-10 font-medium leading-relaxed">
-              Serving the laipathur & Tirunelveli community with fresh groceries on the NH7 highway.
+              Serving the salaipudhur & Tirunelveli community with fresh groceries on the NH7 highway.
             </p>
             <div className="flex gap-4">
               <button onClick={openMap} className="bg-white text-black px-8 py-4 rounded-2xl font-black text-xs uppercase hover:bg-orange-500 hover:text-white transition-all shadow-2xl">Find Us</button>
