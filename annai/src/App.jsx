@@ -270,7 +270,9 @@ const App = () => {
             <div className="text-center md:text-left">
               <h4 className="text-orange-600 font-black text-xs uppercase tracking-widest mb-6 underline">Timings</h4>
               <p className="text-white text-lg font-black italic">6:00 AM - 11:00 PM</p>
-              <p className="text-slate-500 text-xs font-bold mt-2 uppercase tracking-widest">Open Every Day</p>
+              <p className="text-slate-500 text-xs font-bold mt-2 uppercase tracking-widest">Monday to Saturday</p>
+              <p className="text-white text-lg font-black italic">6:00 AM - 2:00 PM</p>
+              <p className="text-slate-500 text-xs font-bold mt-2 uppercase tracking-widest">On Sunday</p>
             </div>
             <div className="text-center md:text-left">
               <h4 className="text-orange-600 font-black text-xs uppercase tracking-widest mb-6 underline">Quick Access</h4>
