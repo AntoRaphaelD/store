@@ -12,7 +12,7 @@ const App = () => {
   const storeData = {
     name: "Annai Stores",
     phone: "+919360312145",
-    address: "Thonugal Vilakku, Sabalaipathur, NH7 Salaipudur, Tirunelveli, Tamil Nadu 628503",
+    address: "Thonugal Vilakku, laipathur, NH7 Salaipudur, Tirunelveli, Tamil Nadu 628503",
     hours: "6:00 AM - 11:00 PM",
     categories: [
       { title: "Rice & Grains", desc: "Premium Ponni & Basmati rice.", icon: <ShoppingBasket />, color: "bg-blue-500" },
@@ -88,7 +88,7 @@ const App = () => {
               QUALITY <br/> <span className="text-orange-500">YOU CAN</span> <br/> TASTE.
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-10 font-medium leading-relaxed">
-              Serving the Sabalaipathur & Tirunelveli community with fresh groceries on the NH7 highway.
+              Serving the laipathur & Tirunelveli community with fresh groceries on the NH7 highway.
             </p>
             <div className="flex gap-4">
               <button onClick={openMap} className="bg-white text-black px-8 py-4 rounded-2xl font-black text-xs uppercase hover:bg-orange-500 hover:text-white transition-all shadow-2xl">Find Us</button>
@@ -204,7 +204,7 @@ const App = () => {
             >
               <iframe
                 title="Exact Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.85215!2d77.893086!3d9.172432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03f1606e123457%3A0x123456789abcdef!2sSabalaipathur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715600000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.85215!2d77.893086!3d9.172432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03f1606e123457%3A0x123456789abcdef!2ssalaipudhur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715600000000!5m2!1sen!2sin"
                 width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy"
                 className="grayscale hover:grayscale-0 transition-all duration-1000 scale-105"
               ></iframe>
@@ -281,7 +281,7 @@ const App = () => {
             </div>
           </div>
           <p className="text-slate-800 text-[10px] font-black uppercase tracking-[0.4em]">
-            © {new Date().getFullYear()} Annai Stores Sabalaipathur
+            © {new Date().getFullYear()} Annai Stores salaipudhur
           </p>
         </div>
       </footer>
